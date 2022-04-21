@@ -19,5 +19,5 @@ jobs:
       - name: Run Datree Policy Check
         uses: datreeio/action-datree@main
         with:
-          path: '**/*.yaml'
+          path: '../../*.yaml'
           cliArguments: '--only-k8s-files'
